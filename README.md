@@ -203,31 +203,6 @@ MNIST-Digit-Classification-MLP/
 
 The `data/` directory is created locally when MNIST is downloaded and is not required in the repository.
 
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/annchitpathak08-blip/MNIST-Digit-Classification-MLP.git
-cd MNIST-Digit-Classification-MLP
-```
-
-### 2. Install the dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-For CUDA-enabled training, install the PyTorch build appropriate for your CUDA environment using the official [PyTorch installation guide](https://pytorch.org/get-started/locally/).
-
-### 3. Run the project
-
-```bash
-python Project-NN-01.py
-```
-
-The script downloads MNIST if it is not already available, trains the network, evaluates it, generates the visualizations and saves the model weights as `mnist_mlp.pth`.
-
 ## Future Improvements
 
 - Repeat the architecture experiments with multiple random seeds and compare mean test accuracy.
