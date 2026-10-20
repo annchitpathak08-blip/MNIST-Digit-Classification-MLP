@@ -1,0 +1,43 @@
+Using device: cuda
+
+Epoch [1/5] - Loss: 0.3418 - Train Accuracy: 90.48%
+Epoch [2/5] - Loss: 0.1428 - Train Accuracy: 95.81%
+Epoch [3/5] - Loss: 0.0974 - Train Accuracy: 97.04%
+Epoch [4/5] - Loss: 0.0721 - Train Accuracy: 97.80%
+Epoch [5/5] - Loss: 0.0564 - Train Accuracy: 98.23%
+
+Test Accuracy: 97.68%
+Saved: training_loss.png
+Saved: confusion_matrix.png
+Saved: misclassified.png
+
+Model saved as mnist_mlp.pth
+
+[Inference Test] True label: 7 | Predicted label: 7
+Saved: single_prediction.png
+END
+
+[Done] exited with code=0 in 59.654 seconds
+
+x-------------------------------------------------------------------------------x
+
+Using device: cpu
+
+Epoch [1/5] - Loss: 0.3342 - Train Accuracy: 90.46%
+Epoch [2/5] - Loss: 0.1407 - Train Accuracy: 95.86%
+Epoch [3/5] - Loss: 0.0975 - Train Accuracy: 97.01%
+Epoch [4/5] - Loss: 0.0735 - Train Accuracy: 97.75%
+Epoch [5/5] - Loss: 0.0596 - Train Accuracy: 98.16%
+
+Test Accuracy: 97.64%
+Saved: training_loss.png
+Saved: confusion_matrix.png
+Saved: misclassified.png
+
+Model saved as mnist_mlp.pth
+
+[Inference Test] True label: 7 | Predicted label: 7
+Saved: single_prediction.png
+END
+
+[Done] exited with code=0 in 95.904 seconds
